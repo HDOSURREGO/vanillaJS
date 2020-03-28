@@ -69,7 +69,7 @@
 			degFInt: Math.floor(degFInt),
 			city: response.name
 		};
-
+		//update to .conditions
 		const $into = $(".conditions")[0];
 
 		ReactDOM.render(<Forecast {...state} />, $into);
